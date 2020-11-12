@@ -1,0 +1,68 @@
+.form{
+    text-align: left;
+
+}
+
+.color{
+    text-align: center;
+}
+
+.formaCuadricula{
+    height: 1000;
+    width: 1000;
+    background-image: url(FormaCuadricula.png);
+}
+
+.CruzRoja{
+    height: 1000;
+    width: 1000;
+    background-image: url(CruzRoja.png);
+}
+
+.CruzAmarilla{
+    height: 400px;
+    width: 638px;
+    background-image: url(CruzAmarilla.png);
+}
+
+.CruzVerde{
+    height: 400px;
+    width: 638px;
+    background-image: url(CruzVerde.png);
+}
+
+.CuadradoRojo{
+    height: 400px;
+    width: 638px;
+    background-image: url(CuadraroRojo.png);
+}
+
+.CuadradoVerde{
+    height: 400px;
+    width: 638px;
+    background-image: url(CuadraroVerde.png);
+}
+
+.CuadradoAmarillo{
+    height: 400px;
+    width: 638px;
+    background-image: url(CuadraroAmarillo.png);
+}
+
+.TrianguloRojo{
+    height: 400px;
+    width: 638px;
+    background-image: url(TrianguloRojo.png);
+}
+
+.TrianguloAmarillo{
+    height: 400px;
+    width: 638px;
+    background-image: url(TrianguloAmarillo.png);
+}
+
+.TrianguloVerde{
+    height: 400px;
+    width: 638px;
+    background-image: url(TrianguloVerde.png);
+}

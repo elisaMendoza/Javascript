@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>EVALUACIÓN3</title>
+        <link rel="stylesheet" type="text/css" href="ev3.css">
+    </head>
+    <body>
+        <h1>Pinta colores</h1>
+        <br>
+        <div>
+            <table  width=50% cellspacing=1 cellpadding=1>
+                <tr valing="Top">
+                    <th class= "color"><strong>Color </strong></th>
+                    <th class= "form" ><strong>Forma </strong></th>
+
+                </tr> <tr>
+                    <td><input type="radio" id="btnRojo" name="color" value="rojo" >&nbsp Rojo
+                        <br>
+                        <input type="radio" id="btnAmarillo" name="color" value="amarillo" >&nbsp Amarillo
+                        <br>
+                        <input type="radio" id="btnVerde" name="color" value="verde" >&nbsp Verde
+                    </td>
+
+                    <td > <input type="radio" id="btnCruz" name="forma" value="cruz" >&nbsp Cruz
+                        <br>
+                        <input type="radio" id="btnCuadrado" name="forma" value= "cuadrado" >&nbsp Cuadraro
+                        <br>
+                        <input type="radio" id="btnTriangulo" name="forma" value= "triangulo" >&nbsp Triangulo
+                    </td>
+                </tr>
+            </table>
+            <br>
+        </div>
+
+        <div>
+            <img class="formaCuadricula" id="formaCuadricula" src="FormaCuadricula.png">
+        </div>
+
+        <script>
+
+            document.getElementById("btnRojo").addEventListener("click", cambiar);
+            document.getElementById("btnAmarillo").addEventListener("click", cambiar);
+            document.getElementById("btnVerde").addEventListener("click", cambiar);
+            document.getElementById("btnCruz").addEventListener("click", cambiar);
+            document.getElementById("btnCuadrado").addEventListener("click", cambiar);
+            document.getElementById("btnTriangulo").addEventListener("click", cambiar);
+
+
+
+            function cambiar() {
+               if (document.getElementById("btnRojo").checked && document.getElementById("btnCruz").checked) {
+                    document.getElementById("formaCuadricula").src = "CruzRoja.png";
+                }
+                if (document.getElementById("btnAmarillo").checked && document.getElementById("btnCruz").checked) {
+                    document.getElementById("formaCuadricula").src = "CruzAmarilla.png";
+                } 
+                if (document.getElementById("btnVerde").checked && document.getElementById("btnCruz").checked) {
+                    document.getElementById("formaCuadricula").src ="CruzVerde.png";
+                }
+                if (document.getElementById("btnRojo").checked && document.getElementById("btnCuadrado").checked) {
+                    document.getElementById("formaCuadricula").src = "CuadraroRojo.png";
+                }
+                if (document.getElementById("btnAmarillo").checked && document.getElementById("btnCuadrado").checked) {
+                    document.getElementById("formaCuadricula").src = "CuadraroAmarillo.png";
+                }
+                if (document.getElementById("btnVerde").checked && document.getElementById("btnCuadrado").checked) {
+                    document.getElementById("formaCuadricula").src = "CuadraroVerde.png";
+                }
+                if (document.getElementById("btnRojo").checked && document.getElementById("btnTriangulo").checked) {
+                    document.getElementById("formaCuadricula").src = "TrianguloRojo.png";
+                }
+                if (document.getElementById("btnAmarillo").checked && document.getElementById("btnTriangulo").checked) {
+                    document.getElementById("formaCuadricula").src = "TrianguloAmarillo.png";
+                }
+                if (document.getElementById("btnVerde").checked && document.getElementById("btnTriangulo").checked) {
+                    document.getElementById("formaCuadricula").src = "TrianguloVerde.png";
+                }
+            }
+        </script>
+    </body>
+</html>
