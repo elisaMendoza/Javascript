@@ -1,0 +1,119 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header {
+    width: 90%;
+    padding: 2px;
+    text-align: center;
+    height: auto;
+    border-radius: 10px;
+    background-color: lightgray;
+}
+nav button {
+    margin: 15px 25px 15px 25px;
+    width: 8%;
+    height: 25px;
+
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.subseccion1 {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+
+}
+.subseccion2 {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+
+}
+.seccion2 img {
+    height: 280px;
+    width: auto;
+    padding: 10px;
+}
+.subseccion3 {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+
+}
+.subseccion4 {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 30px;
+}
+.form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+  }
+
+.form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: rgb(176, 186, 196);
+  }
+  /* inputs */
+.form-container input[type=text], .form-container input[type=password] {
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  /* Al enfocar los inputs */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  /* submit/login button */
+.form-container .btn {
+    background-color: grey;
+    color:black;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+  /*cancel button */
+.form-container .cancel {
+    width: 10%;
+    color: red;
+  }
+  
+  /*  hover effects a buttons */
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+  .open-button {
+      width: 50px;
+      height: 30px;
+  }
+  footer p {
+      float: right;
+  }
+  footer {
+    width: 90%;
+    padding: 10px;
+    height: 40px;
+    background-color: lightgray;
+    border-radius: 10px;
+    margin: 5px;
+  }
+  .club {
+      margin-left: 600px;
+
+  }

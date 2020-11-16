@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <title>Home</title>
+</head>
+<body>
+    <header>
+        <nav id="nav">
+            <button><a href="home.html">Home</a></button>
+            <button><a href="procesos.html">Proceso</a></button>
+            <button><a href="productos.html">Productos</a></button>
+            <button><a href="contacto.html">Contacto</a></button>
+        </nav>
+    </header>
+    <div class="seccion1">
+        <div class="subseccion1">
+            <h2>¡Bienvenidos!</h2>
+            <p id="mess"><strong>¿Quienes somos? </strong> Somos una pequeña empresa familiar de la VI región, que produce cerveza artesanal de calidad</p>
+            <p>Te invitamos a nuestro local a disfrutar de nuestras cervezas Rubia, Ambar y Negra, 
+                junto con una pequeña carta de platos deliciosos y caseros cerca de la naturaleza y lejos de la ciudad.
+            </p> 
+        </div>
+        <div class="subseccion2">
+            <img src="supremaBeer.png" alt="logoCerveza">  
+        </div>
+    </div>
+    <div class="seccion2">
+        <div class="subseccion3">
+            <img src="restaurante.png" alt="restaurante">
+        </div>
+        <div class="subseccion4">
+            <h3>Conoce nuestro equipo:</h3>
+            <p>El dueño, Jonathan Pastenne, es quien produce la cerveza y pasa gran parte del día entre la
+                bodega y la cocina, en donde se fabrica la cerveza. Él es quien posee el conocimiento del
+                proceso y lo controla, para asegurar la calidad y sabor tradicional de sus productos.
+                En la bodega trabaja don Manuel, el padre del dueño y Don Patricio, su tío. En la caja esta
+                su madre Luisa y sus tías en la cocina preparando las recetas de la familia. 
+                Los garzones, Nicolás e Ignacio, los cuales son un par de jóvenes de
+                la zona, se encargan de brindar la mejor atención a los comensales.</p>
+        </div>
+    </div>
+    <div class="club">
+        <h3>Acceso a nuestro Club Cervecero: </h3>
+        <button class="open-button" onclick="openForm()">Login</button>
+    </div>
+        <div class="form-popup" id="myForm">
+            <button type="button" class="btn cancel" onclick="closeForm()">X</button> 
+            <form action="" class="form-container">
+              <label for="user"><b>Usuario:</b></label>
+              <input type="text" placeholder="Ingrese usuario" name="user" required>
+          
+              <label for="psw"><b>Password:</b></label>
+              <input type="password" placeholder="Ingrese password" name="psw" required>
+          
+              <button type="submit" id="login" class="btn" ><a id="btn" href="contacto.html">Login</a></button>
+              
+            </form>
+          </div>
+    <footer>
+        <p>Copyright 2020 - El Website de Eli Inc - All rights reserved. </p>
+    </footer>
+    <script src="home.js">
+
+    </script>
+</body>
+</html>
